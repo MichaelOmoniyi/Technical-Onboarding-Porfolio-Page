@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/profileImg.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "My Profile Picture";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -35,7 +35,7 @@ const skillsList = [
   "User experience",
   "Inclusive design",
   "Focus group testing",
-  "Mobile user interfaces",
+  "Software Development",
   "Graphic design",
 ];
 
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "In my free time, I enjoy contributing to open-source projects and participating in hackathons. I am also a technology enthusiast and love exploring the latest trends in the tech world.";
 
 const About = () => {
   return (
@@ -61,7 +61,7 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p className="large">I am a passionate and dedicated software developer with a strong background in web development. I have experience working with technologies like React, JavaScript, and Node.js. My enthusiasm for coding drives me to constantly learn and explore new technologies to improve my skills.</p>
         <hr />
         <ul
           style={{
